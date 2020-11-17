@@ -3,75 +3,75 @@
 return array (
   'newJobApplication' => 
   array (
-    'subject' => 'New job application received',
-    'text' => 'applied for job',
+    'subject' => 'Novo pedido de emprego recebido',
+    'text' => 'candidatou-se a um emprego',
   ),
-  'loginDashboard' => 'Login to Dashboard',
-  'thankyouNote' => 'Thank You!',
-  'hello' => 'Hello',
-  'your' => 'Your',
-  'on' => 'On',
-  'interviewOn' => 'Interview is on.',
+  'loginDashboard' => 'Faça login no painel',
+  'thankyouNote' => 'Obrigado!',
+  'hello' => 'Olá',
+  'your' => 'Seu',
+  'on' => 'Cmeçar',
+  'interviewOn' => 'A entrevista começou.',
   'newUser' => 
   array (
-    'text' => 'Login details are',
-    'subject' => 'Account created successfully',
+    'text' => 'Os detalhes de login são',
+    'subject' => 'Conta criada com sucesso',
   ),
   'interviewSchedule' => 
   array (
-    'subject' => 'Interview scheduled',
-    'hiredNotify' => 'Notification for hire',
-    'text' => 'interview scheduled for job',
-    'response' => 'For accept or refuse ',
-    'hiredText' => 'You are hired for job ',
-    'interviewReminder' => 'Interview reminder',
-    'employeeResponse' => 'has :type schedule for job :job and candidate',
-    'interviewOn' => 'Interview is on',
-    'scheduleResponse' => 'Employee response on Interview schedule.',
-    'scheduleStatus' => 'Interview schedule changed to',
+    'subject' => 'Entrevista agendada',
+    'hiredNotify' => 'Notificação para contratar',
+    'text' => 'entrevista agendada para emprego',
+    'response' => 'Para aceitar ou recusar ',
+    'hiredText' => 'Você foi contratado para o emprego ',
+    'interviewReminder' => 'Lembrete de entrevista',
+    'employeeResponse' => 'tem :type de horário para trabalho :job  e candidato',
+    'interviewOn' => 'A entrevista está em',
+    'scheduleResponse' => 'Resposta do funcionário na programação da entrevista.',
+    'scheduleStatus' => 'A programação da entrevista mudou para',
   ),
   'interviewScheduleStatus' => 
   array (
-    'subject' => 'Interview schedule status changed.',
-    'text' => 'interview scheduled for job',
-    'statusChangesTo' => 'status changes to',
+    'subject' => 'O status da programação da entrevista foi alterado.',
+    'text' => 'entrevista agendada para trabalho',
+    'statusChangesTo' => 'alterações de estado para',
   ),
   'ScheduleStatusCandidate' => 
   array (
-    'subject' => 'Interview schedule response.',
-    'text' => 'interview scheduled for job',
-    'hasBeen' => 'has been',
-    'forCheckDetails' => 'For check detail',
-    'nowStatus' => 'Now your status is',
+    'subject' => 'Resposta do calendário de entrevistas.',
+    'text' => 'entrevista agendada para trabalho',
+    'hasBeen' => 'tem sido',
+    'forCheckDetails' => 'Para verificar detalhes',
+    'nowStatus' => 'Agora o seu estado é',
   ),
   'newJobOpening' => 
   array (
-    'text' => 'We would like to invite you to apply on a job vacancy.',
-    'jobTitle' => 'Job Title',
-    'jobLocation' => 'Job Location',
-    'moreDetails' => 'Visit below link for more details and apply for the job.',
-    'jobDetails' => 'APPLY FOR JOB',
-    'subject' => 'New Job Opening',
+    'text' => 'Gostaríamos de convidá-lo a candidatar-se a uma vaga de emprego.',
+    'jobTitle' => 'Título de Emprego',
+    'jobLocation' => 'Localização de Emprego',
+    'moreDetails' => 'Visite abaixo o link para mais detalhes e solicite o emprego.',
+    'jobDetails' => 'CANDIDATAR-SE A EMPREGO',
+    'subject' => 'Nova abertura de emprego',
   ),
   'jobOffer' => 
   array (
-    'subject' => 'You have received a Job offer.',
-    'text' => 'I am pleased to extend the following offer of employment to you .You have been selected as the best candidate for the position. Congratulations!',
+    'subject' => 'Recebeu uma oferta de emprego.',
+    'text' => 'Tenho o prazer de lhe estender a seguinte oferta de emprego. Foi selecionado como o melhor candidato para o cargo. Parabéns!',
   ),
-  'viewOffer' => 'View Job Offer',
+  'viewOffer' => 'Ver Oferta de Emprego',
   'jobOfferAccepted' => 
   array (
-    'subject' => 'Job offer accepted',
-    'text' => 'Job offer accepted',
+    'subject' => 'Oferta de emprego aceite',
+    'text' => 'Oferta de emprego aceite',
   ),
   'jobOfferRejected' => 
   array (
-    'subject' => 'Job offer rejected',
-    'text' => 'Job offer rejected',
+    'subject' => 'Oferta de emprego rejeitada',
+    'text' => 'Oferta de emprego rejeitada',
   ),
   'candidateStatusUpdate' =>
   array (
-    'text' => 'Your status has been updated for job',
-    'subject' => 'Status has been updated.',
+    'text' => 'O seu estado foi atualizado para o emprego.',
+    'subject' => 'O estado foi actualizado.',
   ),
 );
