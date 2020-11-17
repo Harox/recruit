@@ -5,7 +5,7 @@
 @endpush
 
 @section('content')
-    @if($global->system_update == 1)
+    {{-- @if($global->system_update == 1)
         @php($updateVersionInfo = \Froiden\Envato\Functions\EnvatoUpdate::updateVersionInfo())
         @if(isset($updateVersionInfo['lastVersion']))
             <div class="row alert alert-info">
@@ -42,7 +42,7 @@
     @endif
     @if(!$progress['progress_completed'])
         @include('admin.dashboard.get_started')
-    @endif
+    @endif --}}
     <div class="row ">
 
         <div class="col">

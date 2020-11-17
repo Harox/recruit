@@ -14,7 +14,7 @@
                     @if(count($jobs) == 0)
                         <div class="alert alert-danger alert-dismissible fade show">
                             <h4 class="alert-heading"><i class="fa fa-warning"></i> Warning!</h4>
-                            <p>You do not have any job created. You need to create the job first to add the job application.
+                            <p>Você não tem nenhum trabalho criado. Você precisa criar o trabalho primeiro para adicionar o formulário de emprego.
                                 <a href="{{ route('admin.jobs.create') }}" class="btn btn-info btn-sm m-l-15" style="text-decoration: none;"><i class="fa fa-plus-circle"></i> @lang('app.createNew') @lang('menu.jobs')</a>
                             </p>
                         </div>

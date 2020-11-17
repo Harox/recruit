@@ -36,10 +36,10 @@ return array (
   ),
   'jobs' => 
   array (
-    'jobTitle' => 'Título de Emprego',
-    'jobDescription' => 'Descrição do emprego',
-    'jobRequirement' => 'Requisito de emprego',
-    'totalPositions' => 'Total de posições',
+    'jobTitle' => 'Título da Vaga',
+    'jobDescription' => 'Descrição do Vaga',
+    'jobRequirement' => 'Requisito da Vaga',
+    'totalPositions' => 'Total de Vagas',
   ),
   'front' => 
   array (

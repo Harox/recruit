@@ -133,7 +133,7 @@
             </div>
         </div>
         <div class="row">
-            <label style="margin-left: 10px">Send mail if candidate move to </label>
+            <label style="margin-left: 10px">Enviar e-mail se o candidato mudar para </label>
             @forelse($boardColumns as $boardColumn)
                 <div class="form-group" style="margin-left: 20px">
                     <label class="">

@@ -130,7 +130,7 @@ return array (
   'salaryOfferedPerMonth' => 'Salário Oferecido por Mês em Metical (MZN)',
   'joinDate' => 'Data de Adesão',
   'employeeWorkStatus' => 'Estado do Trabalho dos Trabalhadores',
-  'job' => 'Trabalho',
+  'job' => 'Emprego',
   'location' => 'Localização',
   'reportTo' => 'Reportar a',
   'lastDate' => 'Última Data',

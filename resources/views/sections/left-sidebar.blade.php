@@ -170,7 +170,7 @@
                         <li class="nav-item">
                             <a href="{{ route('admin.language-settings.index') }}" class="nav-link {{ request()->is('admin/settings/language-settings') ? 'active' : '' }}">
                                 <i class="fa fa-circle-o nav-icon"></i>
-                                <p>@lang('app.language') @lang('menu.settings')</p>
+                                <p>@lang('menu.languageConfig')</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -197,7 +197,7 @@
                                 <p>@lang('menu.smsSettings')</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ route('admin.linkedin-settings.index') }}" class="nav-link">
                                 <i class="fa fa-circle-o nav-icon"></i>
                                 <p>@lang('menu.linkedInSettings')</p>
@@ -210,9 +210,9 @@
                                 <p>@lang('menu.updateApplication')</p>
                             </a>
                         </li>
-                        @endif
+                        @endif --}}
                         <li class="nav-item">
-                            <a href="https://envato-froiden.freshdesk.com/support/solutions/" class="nav-link" target="_blank">
+                            <a href="https://www.google.com" class="nav-link" target="_blank">
                                 <i class="fa fa-circle-o nav-icon"></i>
                                 <p>@lang('menu.help')</p>
                             </a>
@@ -222,11 +222,11 @@
                     </ul>
                 </li>
 
-                <li class="nav-header">MISCELLANEOUS</li>
+                <li class="nav-header">DIVERSOS</li>
                 <li class="nav-item">
                     <a href="{{ url('/') }}" target="_blank" class="nav-link">
                         <i class="nav-icon fa fa-external-link"></i>
-                        <p>Front Website</p>
+                        <p>Visitar o Website</p>
                     </a>
                 </li>
 
