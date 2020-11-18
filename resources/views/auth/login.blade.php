@@ -6,13 +6,13 @@
 
         <div class="form-group mb-3">
             <input type="email" name="email" class="form-control {{ $errors->has('email') ? ' is-invalid' : '' }}"
-                   placeholder="{{ __('E-Mail Address') }}" value="{{ old('email') }}" required autofocus>
+                   placeholder="{{ __('E-Mail') }}" value="{{ old('email') }}" required autofocus>
             @if ($errors->has('email'))
                 <span class="invalid-feedback">{{ $errors->first('email') }}</span>
             @endif
         </div>
         <div class="form-group mb-3">
-            <input id="password" type="password" placeholder="{{ __('Password') }}"
+            <input id="password" type="password" placeholder="{{ __('Senha') }}"
                    class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
             @if ($errors->has('password'))
                 <span class="invalid-feedback">
@@ -24,7 +24,7 @@
             <div class="col-sm-12">
                 <div class="checkbox icheck">
                     <label>
-                        <input type="checkbox" {{ old('remember') ? 'checked' : '' }}> {{ __('Remember Me') }}
+                        <input type="checkbox" {{ old('remember') ? 'checked' : '' }}> {{ __('Lembrar Senha') }}
                     </label>
                 </div>
             </div>
@@ -36,7 +36,7 @@
         </div>
 
         <p class="mb-1 mt-4">
-            <a href="#" id="to-recover">I forgot my password</a>
+            <a href="#" id="to-recover">Esqueci a minha senha!</a>
         </p>
     </form>
 
@@ -59,7 +59,7 @@
         <div class="form-group {{ $errors->has('email') ? ' has-error' : '' }}">
             <div class="col-xs-12">
                 <input class="form-control" type="email" id="email" name="email" required=""
-                       placeholder="{{ __('E-Mail Address') }}" value="{{ old('email') }}">
+                       placeholder="{{ __('E-Mail') }}" value="{{ old('email') }}">
                 @if ($errors->has('email'))
                     <span class="help-block">
                         {{ $errors->first('email') }}

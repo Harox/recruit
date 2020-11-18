@@ -139,8 +139,7 @@ class FrontJobsController extends FrontBaseController
      * @param FrontJobApplication $request
      * @return mixed
      */
-    public function saveApplication(FrontJobApplication $request)
-    {
+    public function saveApplication(FrontJobApplication $request){
         $jobApplication = new JobApplication();
         $jobApplication->full_name = $request->full_name;
         $jobApplication->job_id = $request->job_id;
@@ -199,11 +198,11 @@ class FrontJobsController extends FrontBaseController
                 $answer->save();
             }
         }
-        if($request->has('apply_type')){
-            $linkedin = true;
-        }
+        // if($request->has('apply_type')){
+        //     $linkedin = true;
+        // }
 
-        Notification::send($users, new NewJobApplication($jobApplication, $linkedin));
+        // Notification::send($users, new NewJobApplication($jobApplication, $linkedin));
 
         return Reply::dataOnly(['status' => 'success', 'msg' => __('modules.front.applySuccessMsg')]);
     }

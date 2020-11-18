@@ -81,7 +81,7 @@
 
                 @permission('view_job_applications')
                 <li class="nav-item">
-                    <a href="{{ route('admin.job-applications.index') }}" class="nav-link {{ request()->is('admin/job-applications*') ? 'active' : '' }}">
+                    <a href="{{ route('admin.job-applications.table') }}" class="nav-link {{ request()->is('admin/job-applications*') ? 'active' : '' }}">
                         <i class="nav-icon icon-user"></i>
                         <p>
                             @lang('menu.jobApplications')
