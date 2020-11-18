@@ -20,6 +20,14 @@ class CreateApplicationStatusTable extends Migration
             $table->timestamps();
         });
 
+        // $data = [
+        //     ['status' => 'applied'],
+        //     ['status' => 'phone screen'],
+        //     ['status' => 'interview'],
+        //     ['status' => 'hired'],
+        //     ['status' => 'rejected']
+        // ];
+
         $data = [
             ['status' => 'applied'],
             ['status' => 'phone screen'],

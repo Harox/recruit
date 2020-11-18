@@ -99,9 +99,9 @@
                                      <h5 >@lang('app.selectDateRange')</h5>
                                      <div class="example">
                                          <div class="input-daterange input-group" id="date-range">
-                                             <input type="text" class="form-control" id="start-date" placeholder="Show Results From" value="" />
+                                             <input type="text" class="form-control" id="start-date" placeholder="Data de Inicio" value="" />
                                              <span class="input-group-addon bg-info b-0 text-white p-1">@lang('app.to')</span>
-                                             <input type="text" class="form-control" id="end-date" placeholder="Show Results To" value="" />
+                                             <input type="text" class="form-control" id="end-date" placeholder="Data de Fim" value="" />
                                          </div>
                                      </div>
                                  </div>

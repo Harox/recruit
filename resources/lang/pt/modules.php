@@ -58,7 +58,7 @@ return array (
     'resume' => 'CV',
     'coverLetter' => 'Carta de apresentação',
     'submitApplication' => 'Submeter Candidatura',
-    'applySuccessMsg' => 'Você se inscreveu com sucesso para esta posição. Nós entraremos em contato com você em breve :)',
+    'applySuccessMsg' => 'Parabéns, Candidatou-se com sucesso para esta vaga. Entraremos em contato com você em breve :)',
     'jobOpeningHeading' => 'Trabalhe na MozRecrutamento !',
     'jobOpeningText' => 'Queremos que as pessoas prosperem em MozRecrutamento.; <br>acreditamos que faz o seu melhor trabalho quando se sente o seu melhor.',
     'questions' => 'Perguntas',
@@ -96,7 +96,7 @@ return array (
     'selectJob' => 'Selecione a Vaga',
     'applicantNotes' => 'Notas dos requerentes',
     'addNote' => 'Adicionar Nota',
-    'boardView' => 'Vista de Bloco',
+    'boardView' => 'Vista em Bloco',
     'archiveApplication' => 'Arquivar inscrições',
     'deleteApplication' => 'Apagar inscrições',
     'addSkills' => 'Adicionar Habilidades',
@@ -112,7 +112,7 @@ return array (
   'dashboard' => 
   array (
     'totalOpenings' => 'Total de vagas',
-    'totalApplications' => 'Total de inscrições',
+    'totalApplications' => 'Total de Candidaturas',
     'totalHired' => 'Total contratados',
     'totalRejected' => 'Total Rejeitados',
     'newApplications' => 'Novas inscrições',
