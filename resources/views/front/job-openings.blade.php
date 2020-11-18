@@ -11,7 +11,7 @@
 
     <!--
     |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-    | Working at TheThemeio
+    | 
     |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
     !-->
     <section class="section bg-gray py-120">
@@ -49,7 +49,7 @@
 
             <div data-provide="shuffle">
                 <div class="text-center gap-multiline-items-2 job-filters" data-shuffle="filter">
-                    <button class="btn btn-w-md btn-outline btn-round btn-primary active" data-shuffle="button">All
+                    <button class="btn btn-w-md btn-outline btn-round btn-primary active" data-shuffle="button">Todos
                     </button>
                     @foreach($locations as $location)
                         <button class="btn btn-w-md btn-outline btn-round btn-primary" data-shuffle="button"
