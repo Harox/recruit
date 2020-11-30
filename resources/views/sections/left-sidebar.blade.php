@@ -96,17 +96,17 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item">
+                {{--  <li class="nav-item">
                     <a href="{{ route('admin.job-onboard.index') }}" class="nav-link {{ request()->is('admin/job-onboard*') ? 'active' : '' }}">
                         <i class="nav-icon icon-user"></i>
                         <p>
                             @lang('app.job') @lang('app.onBoard')
                         </p>
                     </a>
-                </li>
+                </li>  --}}
                 @endpermission
 
-                @permission('view_schedule')
+                {{--  @permission('view_schedule')
                 <li class="nav-item">
                     <a href="{{ route('admin.interview-schedule.index') }}" class="nav-link {{ request()->is('admin/interview-schedule*') ? 'active' : '' }}">
                         <i class="nav-icon icon-calendar"></i>
@@ -115,7 +115,7 @@
                         </p>
                     </a>
                 </li>
-                @endpermission
+                @endpermission  --}}
 
                 @permission('view_team')
                 <li class="nav-item">

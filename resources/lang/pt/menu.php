@@ -8,7 +8,7 @@ return array (
   'companySettings' => 'Configurações da empresa',
   'rolesPermission' => 'Funções e permissões',
   'skills' => 'habilidades',
-  'locations' => 'Localização das vagas',
+  'locations' => 'Cidades',
   'jobs' => 'Vagas',
   'jobApplications' => 'Candidaturas',
   'myProfile' => 'Meu Perfil',
@@ -34,5 +34,5 @@ return array (
   'footerSetting' => 'Configuração de rodapé',
   'footerSettings' => 'Links de rodapé',
   'todoList' => 'Tarefas pendentes',
-  'candidateDatabase' => 'Base de dados de Candidatos',
+  'candidateDatabase' => 'Base de dados',
 );

@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Column -->
+                {{--  <!-- Column -->
                 <div class="col-md-6">
                     <div class="card">
                         <div class="box bg-success text-center rounded">
@@ -82,7 +82,7 @@
                             <h6 class="text-white">@lang('modules.dashboard.totalHired')</h6>
                         </div>
                     </div>
-                </div>
+                </div>  --}}
                 <!-- Column -->
                 <div class="col-md-6">
                     <div class="card">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Column -->
+                {{--  <!-- Column -->
                 <div class="col-md-6">
                     <div class="card">
                         <div class="box bg-primary text-center rounded">
@@ -118,7 +118,7 @@
                             <h6 class="text-white">@lang('modules.dashboard.todayInterview')</h6>
                         </div>
                     </div>
-                </div>
+                </div>  --}}
             </div>
         </div>
         @if ($user->roles->count() > 0)
