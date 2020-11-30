@@ -408,13 +408,13 @@
     function deleteSticky(id){
 
         swal({
-            title: "Are you sure?",
-            text: "You will not be able to recover the deleted Sticky Note!",
+            title: "Tens a certeza?",
+            text: "Não poderá recuperar a Nota apagada!",
             type: "warning",
             showCancelButton: true,
             confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Yes, delete it!",
-            cancelButtonText: "No, cancel please!",
+            confirmButtonText: "Sim, eliminar!",
+            cancelButtonText: "Não, cancele, por favor.!",
             closeOnConfirm: true,
             closeOnCancel: true
         }, function(isConfirm){

@@ -371,13 +371,13 @@
         var id = $(this).data('file-id');
         var deleteView = $(this).data('pk');
         swal({
-            title: "Are you sure?",
-            text: "You will not be able to recover the deleted file!",
+            title: "Tens a certeza?",
+            text: "Não poderá recuperar o ficheiro apagado!",
             type: "warning",
             showCancelButton: true,
             confirmButtonColor: "#DD6B55",
             confirmButtonText: "Yes, delete it!",
-            cancelButtonText: "No, cancel please!",
+            cancelButtonText: "Não, cancele, por favor!",
             closeOnConfirm: true,
             closeOnCancel: true
         }, function (isConfirm) {

@@ -33,14 +33,6 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="{{ route('admin.applications-archive.index') }}" class="nav-link {{ request()->is('admin/applications-archive*') ? 'active' : '' }}">
-                        <i class="nav-icon icon-drawer"></i>
-                        <p>
-                            @lang('menu.candidateDatabase')
-                        </p>
-                    </a>
-                </li>
                 {{--  <li class="nav-item">
                     <a href="{{ route('admin.job-onboard.index') }}" class="nav-link {{ request()->is('admin/job-onboard*') ? 'active' : '' }}">
                         <i class="nav-icon icon-user"></i>
@@ -90,6 +82,17 @@
                         <i class="nav-icon icon-location-pin"></i>
                         <p>
                             @lang('menu.locations')
+                        </p>
+                    </a>
+                </li>
+                @endpermission
+
+                @permission('view_job_applications')
+                <li class="nav-item">
+                    <a href="{{ route('admin.applications-archive.index') }}" class="nav-link {{ request()->is('admin/applications-archive*') ? 'active' : '' }}">
+                        <i class="nav-icon icon-drawer"></i>
+                        <p>
+                            @lang('menu.candidateDatabase')
                         </p>
                     </a>
                 </li>

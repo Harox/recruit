@@ -72,13 +72,13 @@
     $('body').on('click', '.sa-params', function(){
         var id = $(this).data('feature-id');
         swal({
-            title: "Are you sure?",
-            text: "You will not be able to recover the deleted footer setting!",
+            title: "Você tem certeza?",
+            text: "Você não poderá recuperar a configuração de rodapé eliminada!",
             type: "warning",
             showCancelButton: true,
             confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Yes, delete it!",
-            cancelButtonText: "No, cancel please!",
+            confirmButtonText: "Sim, apagar!",
+            cancelButtonText: "Não, cancele, por favor!",
             closeOnConfirm: true,
             closeOnCancel: true
         }, function(isConfirm){
