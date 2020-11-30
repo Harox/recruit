@@ -24,61 +24,6 @@
                     </a>
                 </li>
 
-                @permission('view_category')
-                <li class="nav-item">
-                    <a href="{{ route('admin.job-categories.index') }}" class="nav-link {{ request()->is('admin/job-categories*') ? 'active' : '' }}">
-                        <i class="nav-icon icon-grid"></i>
-                        <p>
-                            @lang('menu.jobCategories')
-                        </p>
-                    </a>
-                </li>
-                @endpermission
-
-                @permission('view_skills')
-                <li class="nav-item">
-                    <a href="{{ route('admin.skills.index') }}" class="nav-link {{ request()->is('admin/skills*') ? 'active' : '' }}">
-                        <i class="nav-icon icon-grid"></i>
-                        <p>
-                            @lang('menu.skills')
-                        </p>
-                    </a>
-                </li>
-                @endpermission
-
-                @permission('view_company')
-                <li class="nav-item">
-                    <a href="{{ route('admin.company.index') }}" class="nav-link {{ request()->is('admin/company*') ? 'active' : '' }}">
-                        <i class="nav-icon icon-film"></i>
-                        <p>
-                            @lang('menu.companies')
-                        </p>
-                    </a>
-                </li>
-                @endpermission
-
-                @permission('view_locations')
-                <li class="nav-item">
-                    <a href="{{ route('admin.locations.index') }}" class="nav-link {{ request()->is('admin/locations*') ? 'active' : '' }}">
-                        <i class="nav-icon icon-location-pin"></i>
-                        <p>
-                            @lang('menu.locations')
-                        </p>
-                    </a>
-                </li>
-                @endpermission
-
-                @permission('view_jobs')
-                <li class="nav-item">
-                    <a href="{{ route('admin.jobs.index') }}" class="nav-link {{ request()->is('admin/jobs*') ? 'active' : '' }}">
-                        <i class="nav-icon icon-badge"></i>
-                        <p>
-                            @lang('menu.jobs')
-                        </p>
-                    </a>
-                </li>
-                @endpermission
-
                 @permission('view_job_applications')
                 <li class="nav-item">
                     <a href="{{ route('admin.job-applications.table') }}" class="nav-link {{ request()->is('admin/job-applications*') ? 'active' : '' }}">
@@ -105,6 +50,67 @@
                     </a>
                 </li>  --}}
                 @endpermission
+
+                @permission('view_jobs')
+                <li class="nav-item">
+                    <a href="{{ route('admin.jobs.index') }}" class="nav-link {{ request()->is('admin/jobs*') ? 'active' : '' }}">
+                        <i class="nav-icon icon-badge"></i>
+                        <p>
+                            @lang('menu.jobs')
+                        </p>
+                    </a>
+                </li>
+                @endpermission
+
+                @permission('view_category')
+                <li class="nav-item">
+                    <a href="{{ route('admin.job-categories.index') }}" class="nav-link {{ request()->is('admin/job-categories*') ? 'active' : '' }}">
+                        <i class="nav-icon icon-grid"></i>
+                        <p>
+                            @lang('menu.jobCategories')
+                        </p>
+                    </a>
+                </li>
+                @endpermission
+
+                @permission('view_skills')
+                <li class="nav-item">
+                    <a href="{{ route('admin.skills.index') }}" class="nav-link {{ request()->is('admin/skills*') ? 'active' : '' }}">
+                        <i class="nav-icon icon-game-controller"></i>
+                        <p>
+                            @lang('menu.skills')
+                        </p>
+                    </a>
+                </li>
+                @endpermission
+
+                @permission('view_locations')
+                <li class="nav-item">
+                    <a href="{{ route('admin.locations.index') }}" class="nav-link {{ request()->is('admin/locations*') ? 'active' : '' }}">
+                        <i class="nav-icon icon-location-pin"></i>
+                        <p>
+                            @lang('menu.locations')
+                        </p>
+                    </a>
+                </li>
+                @endpermission
+
+                @permission('view_company')
+                <li class="nav-item">
+                    <a href="{{ route('admin.company.index') }}" class="nav-link {{ request()->is('admin/company*') ? 'active' : '' }}">
+                        <i class="nav-icon icon-film"></i>
+                        <p>
+                            @lang('menu.companies')
+                        </p>
+                    </a>
+                </li>
+                @endpermission
+
+                
+
+                
+
+                
 
                 {{--  @permission('view_schedule')
                 <li class="nav-item">

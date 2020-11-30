@@ -2,10 +2,10 @@
 
 return array (
   'dashboard' => 'Painel',
-  'jobCategories' => 'Categorias de Emprego',
+  'jobCategories' => 'Categorias',
   'settings' => 'Configurações',
   'languageConfig' => 'Configurações de Idioma',
-  'companySettings' => 'Configurações da empresa',
+  'companySettings' => 'Minha Empresa',
   'rolesPermission' => 'Funções e permissões',
   'skills' => 'habilidades',
   'locations' => 'Cidades',
@@ -25,7 +25,7 @@ return array (
   'interviewDate' => 'Data da entrevista',
   'status' => 'Estado',
   'companies' => 'Empresas',
-  'businessSettings' => 'Configurações da Empresa',
+  'businessSettings' => 'Minha Empresa',
   'help' => 'Ajuda',
   'sendJobEmails' => 'Enviar novos emails de empregos',
   'smsSettings' => 'Configurações de SMS',
